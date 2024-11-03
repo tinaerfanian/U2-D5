@@ -1,0 +1,765 @@
+/*MOBILE FIRST*/
+/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE*/
+.m{
+    display: none;
+}
+
+/*la parte sopra, nav e logo*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.75em;
+    padding-top: 0.95em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    flex-direction: row;
+}
+
+.LogoImage{
+    width: 32%;
+}
+
+
+.nav-options {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 16px;
+    margin-bottom: 0.4em;
+}
+
+.NotVisibleOnMobile{
+    display:none;
+}
+
+.signIn{
+    color: #000000;
+    transition: color 0.3s;
+    text-decoration: none;
+    margin-right: 1.75em;
+    font-family: roboto;
+    font-size: 10px;
+}
+
+.signIn:hover {
+    color: #ffffff;
+}
+
+
+.getStarted {
+    background-color: #000000;
+    color: #fffdfd;
+    padding: 8px 10px;
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 9px;
+}
+
+.getStarted:hover {
+    background-color: #9e11d2;
+    color: white;
+}
+
+/*_____________________________________________________________________________________________________________*/
+
+
+/*La Parte "STAY CURIOUS"*/
+
+.stayCurious{
+    padding-top: 4em;
+    padding-left: 1em;
+    background-color: #ffc017;
+    padding-bottom: 4.3em;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.stay{
+    
+   
+    font-family: spectral;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.discover{
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-right: 4em;
+    font-family: roboto;
+    font-size: 18px;
+}
+
+.startReading{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #000000;
+    color: #fffdfd;
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 15px;
+    align-self: flex-start;
+}
+
+/*_____________________________________________________________________________________________________________*/
+
+
+/*Trending part*/
+
+.trending{
+    margin-top: 2.5em;
+    margin-left: 1.75em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: roboto;
+    font-size: 10px;
+}
+.trending p {
+    margin-left: 0.75em;
+    font-weight: 500;
+}
+
+.trending img{
+    width: 5%;
+}
+
+/*_____________________________________________________________________________________________________________*/
+
+/*TREND LIST*/
+
+.trend-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.list-item {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 1em;
+}
+
+
+.numero-lista {
+    
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ddd;
+    width: 1em;
+    margin-right: 0.75em;
+     font-family: 'Roboto'
+}
+
+/* Contenitore per l'autore e il contenuto */
+.news {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Informazioni sull'autore */
+.scrittore {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    font-size: 0.85em;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.writer {
+    font-weight: bold;
+    font-size: 0.6em;
+}
+
+.writer-foto {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    max-width: 30%;
+}
+
+/* Titolo dell'articolo */
+.news-titolo {
+    padding-top: 0.4em;
+    font-size: 0.64em;
+    font-weight: bold;
+    margin: 0.2em 0;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Meta informazioni (data e tempo di lettura) */
+.article-meta {
+    display: flex;
+    font-size: 0.6em;
+    color: #999;
+    gap: 3em;
+    padding-top: 0.5em;
+}
+
+/* Separatore */
+.sepazio {
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    background-color: #999;
+    border-radius: 50%;
+    margin: 0 0.5em;
+}
+
+.in{
+    color: #999;
+    font-weight: bold;
+    font-size: 0.6em;
+    
+}
+
+hr{
+    opacity: 40%;
+}
+
+/*_____________________________________________________________________________________________________________*/
+
+/*tags*/
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 5px;
+    text-align: center;
+}
+.container h2 {
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Roboto';
+    text-align: left;
+    padding-left: 1.5em;
+    padding-top: 1em;
+}
+
+.tags {
+    padding-left: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.tag {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:0.6em ;
+    padding-bottom: 0.6em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 10px;
+    font-family: 'Roboto';
+    color: #9c9c9c;
+    text-decoration: none;
+  
+}
+
+.tag:hover {
+    background-color: #9e11d2;
+    border-color: #333;
+}
+
+/*_____________________________________________________________________________________________________________*/
+
+
+/*navigation*/
+
+
+.nav-sotto ul {
+    padding-top:1.5em ;
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #898484;
+}
+
+.nav-sotto a {
+    color: #898484;
+    text-decoration: none;
+}
+
+.nav-sotto a:hover {
+    text-decoration: underline;
+}
+
+.articles-sotto {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+}
+
+.article-short {
+    display: flex;
+    align-items: flex-start;
+    padding: 11px;
+    
+    gap: 11px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.article-detail {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.reporter {
+    display: flex;
+    align-items: center;
+    font-size: 0.6em;
+    color: #333;
+    font-weight: bold;
+}
+
+.reporter-foto img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 3px;
+}
+
+.reporter-name {
+    font-size: 11px;
+}
+
+
+.titolo-article {
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    margin: 3px 0;
+}
+
+
+.descrizione {
+    font-size: 0.8em;
+    color: #555;
+    margin: 3px 0 7px 0;
+  
+}
+
+
+.meta-article {
+    font-size: 0.6em;
+    color: #888;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+
+.article-tag {
+    background-color: #f0f0f0;
+    color: #444;
+    padding: 5px 7px;
+    border-radius: 9px;
+    font-size: 0.7em;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.fotoArt img {
+    width: 8em;
+    height: 5em;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.bookmark {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    font-size: 0.4em;
+}
+
+.bookmark img{
+    max-width: 5em;
+}
+
+
+/*TABLET TABLET TABLETV TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET*/
+
+@media (min-width: 462px) and (max-width: 1023.9px) {
+
+
+.LogoImage{
+    width: 20%;
+    margin-left: 2em;
+}
+
+.nav-options{
+    margin-right: 2em;
+}
+
+.NotVisibleOnMobile{
+    display: block;
+}
+
+
+.trending img{
+    width: 3%;
+}
+
+.trend-list {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
+
+.trend-list {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+    flex-wrap: wrap;
+    flex-direction: unset;
+}
+
+
+.list-item{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 1em;
+    flex: 1 1 calc(50% - 1em);
+    box-sizing: border-box;
+    max-width: calc(50% - 1em);
+}
+
+.news-titolo {
+    padding-top: 0.4em;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0.2em 0;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.ColonnaPerTesto{
+padding-top: 2em;
+padding: 2em;
+}
+
+
+.tag {
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.tags {
+    padding-right: 6em;
+    gap: 7px;
+}
+
+.nav-sotto{
+    width: 90%;
+    margin:  0 auto;
+}
+    
+.nav-sotto ul {
+    padding-bottom: 0.2em;
+    padding-left: 0;
+    gap: 25px;
+    font-size: 13px;
+}
+
+
+.fotoArt img {
+    width: 12em;
+    height: 7em;
+    border-radius: 4px;
+    object-fit: cover;
+    padding-right: 2em;
+}
+
+.descrizione{
+    margin-right: 1em;
+    font-size: 0.9em;
+}
+
+.m {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 0 auto;
+    transform: translateX(0);
+    padding-top: 1em;
+    display: block;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.visible {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.stayCurious {
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+.stay {
+    font-size: 3em;
+    margin-left: 0;
+}
+
+.discover {
+    font-size: 0.9em;
+    margin: 0 auto;
+    padding-bottom: 0.8em;
+}
+
+.startReading {
+    display: inline-block;
+    padding: 0.6em 1.2em;
+    font-size: 0.9em;
+    margin-top: 1em;
+    margin-left: 0;
+}
+
+
+
+
+.articles-sotto{
+    margin-left: 1em;
+}
+
+.ColonnePerStay{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container h2{
+    font-size: 0.9em;
+}
+
+
+.reporter-foto img{
+    width: 25px;
+    height: 25px;
+}
+
+.reporter-name{
+    font-size: 12px;
+}
+
+.titolo-article{
+    font-size: 1.2em;
+}
+
+.meta-article{
+    gap: 8px;
+}
+
+}
+
+
+/*DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP*/
+
+@media only screen and (min-width: 1024px) {
+.LogoImage{
+    width: 11.5%;
+    margin-left: 5.5em;
+}
+.nav-options{
+    margin-right: 5.5em;
+}
+.signIn{
+    font-size: 11px;
+}
+.getStarted{
+    font-size: 11px;
+}
+
+.stayCurious{
+    position: relative;
+    padding: 0;
+    padding-top: 3.7em;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.visible {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.list-item{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 1em;
+    flex: 1 1 calc(33.3% - 1em);
+    box-sizing: border-box;
+    max-width: calc(33.3% - 1em);
+}
+
+.trend-list {
+    flex-direction: unset;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-right: 3em;
+}
+
+.stay{
+    font-size: 5em;
+
+}
+
+.discover{
+    font-size: 1em;
+    width: 80%;
+
+}
+
+.startReading{
+    font-size: 1em;
+}
+
+
+.trending img{
+    width: 3%;
+    margin-left: 8em;
+}
+
+.NotVisibleOnMobile{
+    display: block;
+}
+
+.m {
+    margin-left: 12em;
+    margin-top: 0em;
+    padding-top: 0em;
+    width: 70%;
+    height: auto;
+    display: block;
+    width: auto;
+    transform: translateX(0);
+}
+
+.ColonnaPerSvg{
+    display: flex;
+    flex: 2;
+    height: auto;
+}
+
+.ColonnePerStay{
+    display: flex;
+}
+
+.ColonnaPerTesto{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+
+
+    .SuperContainerGeneric{
+    display: flex;
+    width:90%;
+    flex-direction: row-reverse;
+    }
+
+    .SuperContainerDesktopTopics{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    }
+
+    .SuperContainerDesktopArticoli{
+    flex: 2;
+    }
+
+
+    .article-short{
+    margin-left: 6em;
+    }
+
+    .navbar{
+    position: fixed;
+    transition: background-color 0.5s ease;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    }
+
+    .scrolled{
+    background-color: white !important;
+    }
+
+
+    .getStarted {
+
+    transition: color 0.3s ease;
+    }
+
+    .scrolled-button {
+    background-color: #538724;
+    }
+    }
+
+
+
